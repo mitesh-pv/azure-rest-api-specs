@@ -1033,6 +1033,11 @@
           "description": "Supported memory sizes in GB.",
           "readOnly": true
         },
+        "supportedMemoryLimitsMB": {
+          "$ref": "#/definitions/MaxLimitRangeCapability",
+          "description": "Memory limit MB ranges.",
+          "readOnly": true
+        },
         "includedMaxSize": {
           "$ref": "#/definitions/MaxSizeCapability",
           "description": "Included size.",
