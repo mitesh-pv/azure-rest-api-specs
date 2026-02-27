@@ -10010,9 +10010,6 @@ suppressions:
   - code: LatestVersionOfCommonTypesMustBeUsed
     from: Servers.json
     where: $.paths["/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/refreshExternalGovernanceStatus"].post.responses.default.schema["$ref"]
-  - code: ResourceNameRestriction
-    from: Servers.json
-    where: $.parameters.ServerNameParameter
   - code: ProvisioningStateValidation
     from: Servers.json
     where: $.definitions.PrivateEndpointConnectionProperties.properties.provisioningState
