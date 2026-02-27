@@ -73,6 +73,3 @@
 - tool: TypeSpecRequirement
   path: ./stable/2023-08-01/*.json
   reason: Brownfield service not ready to migrate
-- tool: ResourceNamePattern
-  path: ./preview/2025-02-01-preview/Servers.json
-  reason: Pre-existing parameter definition without pattern; adding a pattern restriction would be a breaking change for existing clients.
